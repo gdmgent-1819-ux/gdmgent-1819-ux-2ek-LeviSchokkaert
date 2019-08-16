@@ -40,6 +40,10 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
 }
+bold{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;  
+}
 /*kleuren*/
 #kleur1{
     background-color:#5E4BA6;
@@ -65,7 +69,14 @@ p{
     background-color:#F2F2F2;
     padding: 50px;
 }
-
+/*button*/
+button{
+    padding: 8% 30%;
+    background-color: #D95988;
+    color: #F2F2F2;
+    font-size: 20pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
 /*formulier opmaak*/
 .formulier{
     padding: 10px 40px 10px 5px;
@@ -78,10 +89,16 @@ p{
 
 /*header opmaak*/
 #header{
-    background-color: #F2F2F2; 
+    background-color: #F2F2F2;
+    height: 200px;
+    position: absolute;
 }
 ul{
     list-style-type: none;
+    padding: 0;
+}
+li{
+    border-bottom: #5E4BA6 2px solid;
 }
 a{
     text-decoration: none;
@@ -90,11 +107,16 @@ a{
     color: rgba(217, 89, 136, 1);
     border:  rgba(217, 89, 136, 0.5) solid 2px;
     border-radius: 5px;
-    padding: 5px;
-    margin-top: 100px;
+    padding: 8% 10%;
 }
-
-
+.link:hover{
+    background-color:  rgba(217, 89, 136, 0.5);
+    color: #F2F2F2;
+}
+.plaatsLink{
+    margin-top: 100px;
+    margin-right: 2%;
+}
 
 .dropdown{
     position: relative;
@@ -103,7 +125,39 @@ a{
 .dropdown-content{
     display: none;
     position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0;
+    margin-top:10px;
+    border:  rgba(217, 89, 136, 0.5) solid 2px;
+
 }
 .dropdown:hover .dropdown-content {
     display: block;
   }
+/*homefoto*/
+#homeFoto{
+    background-image: url(../img/Home_foto.jpg);
+    height: 780px;
+    background-repeat: no-repeat;
+}
+span{
+    color: #D95988;
+}
+#tekstHomeFoto{
+    background-color: #F2F2F2;
+    height:400px;
+    width: 800px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 300px;
+    
+}
+#tekstKleurOranje{
+    color: #D95A4E;
+}
+/*foto's*/
+/*footer*/
+#footer{
+    background-color:  rgba(217, 89, 136, 0.5);
+}
