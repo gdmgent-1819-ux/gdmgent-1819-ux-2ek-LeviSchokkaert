@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import url('variables.css');
+@import url('base.css');
+
+@import url('components/flex-grid.css');
+@import url('components/buttons.css');
+@import url('components/forms.css');
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400i&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+/*opmaak Typografie*/
+.titel{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50pt;
+    font-weight: 700;
+}
+.subtitel1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35pt;
+}
+.subtitel2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35pt;
+    font-weight: 600;
+}
+.fontform{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15pt;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+/*kleuren*/
+#kleur1{
+    background-color:#5E4BA6;
+    padding: 50px;
+    color: #FFFFFF;
+}
+#kleur2{
+    background-color:#D95988 ;
+    padding: 50px;
+    color: #FFFFFF;
+}
+#kleur3{
+    background-color:#F2D649 ;
+    padding: 50px;
+    color: #FFFFFF;
+}
+#kleur4{
+    background-color:#D95A4E ;
+    padding: 50px;
+    color: #FFFFFF;
+}
+#kleur5{
+    background-color:#F2F2F2;
+    padding: 50px;
+}
+
+/*formulier opmaak*/
+.formulier{
+    padding: 10px 40px 10px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.1) solid 2px;
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+/*header opmaak*/
+#header{
+    background-color: #F2F2F2; 
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    color: rgba(217, 89, 136, 1);
+    border:  rgba(217, 89, 136, 0.5) solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
